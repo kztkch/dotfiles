@@ -1,0 +1,2 @@
+nnoremap <C-[> :pop<CR>
+nnoremap <C-]> g<C-]>

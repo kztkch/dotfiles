@@ -1,0 +1,29 @@
+set nocompatible
+filetype off
+
+"if filereadable(expand('~/.vim.d/vimrc_ctags'))
+"  source ~/.vim.d/vimrc_ctags
+"endif
+
+if filereadable(expand('~/.vim.d/vimrc_neobundle'))
+  source ~/.vim.d/vimrc_neobundle
+endif
+
+if filereadable(expand('~/.vim.d/vimrc_baseplugin'))
+  source ~/.vim.d/vimrc_baseplugin
+endif
+
+if filereadable(expand('~/.vim.d/vimrc_clojure'))
+  source ~/.vim.d/vimrc_clojure
+endif
+
+if filereadable(expand('~/.vim.d/vimrc_scala'))
+  source ~/.vim.d/vimrc_scala
+endif
+
+if filereadable(expand('~/.vim.d/vimrc_window_tab'))
+  source ~/.vim.d/vimrc_window_tab
+endif
+
+filetype plugin on
+filetype indent on
